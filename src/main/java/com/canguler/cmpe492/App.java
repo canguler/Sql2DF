@@ -20,9 +20,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-/**
- * Hello world!
- */
+
 public class App {
     public static void main(String[] args) throws JSQLParserException, FileNotFoundException {
         Scanner scanner = new Scanner(new File("create_table.sql"));
@@ -126,10 +124,5 @@ public class App {
                 }
             }
         }
-//        System.out.println("Columns: " + plainSelectVisitor.getColumnSet());
-
-
-//        Expression a = CCJSqlParserUtil.parseExpression("p_container in ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')");
-//        System.out.println(a);
     }
 }
